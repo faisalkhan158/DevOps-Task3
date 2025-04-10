@@ -20,7 +20,7 @@ This task provisions an NGINX container on a Docker host using Terraform. The in
 
 ## 📁 Project Files  
 - `main.tf` – Terraform file defining the Docker provider, image, and container  
-- `terraform.tfstate` – Tracks the current infrastructure state (auto-generated)  
+- `terraform.tfstate` – Tracks the current infrastructure state  
 - `execution_logs.txt` – Captured terminal outputs of Terraform commands  
 
 ## ⚠️ Pre-requisites  
