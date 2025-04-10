@@ -28,4 +28,4 @@ This task provisions an NGINX container on a Docker host using Terraform. The in
 - Terraform installed (v1.6+ recommended)  
 - Add user to Docker group:  
   ```bash
-  sudo usermod -aG docker $USER && newgrp docker
+  sudo usermod -aG docker $USER
